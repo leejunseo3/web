@@ -1,32 +1,35 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<link rel="stylesheet" href="style.css">
 	<meta charset="utf-8">
 	<title></title>
 </head>
-<body style="background-color: white; background-image: url('images/background.jpg'); background-repeat: no-repeat; background-size: cover;">
-	<div style="margin-left: 15%; margin-right: 15%; margin-top: 0">
-	<span style="text-align: left;"><h1 style="color: wihte">홈페이지</h1></span>
-	<nav style="margin: 10px">
-		<ul style="list-style: none; text-align: left; border-top: 1px solid black; border-bottom: 1px solid black; padding: 10px 0;">
-			<li style="display: inline; text-transform: uppercase; padding: 0 10px; letter-spacing: 0px;">
-				<a style="text-decoration: underline; color: black;" href="menu1.html">진행중인 이벤트</a></li>
-			<li style="display: inline; text-transform: uppercase; padding: 0 10px; letter-spacing: 0px;">
-				<a style="text-decoration: underline; color: black;" href="menu2.html">당첨자 확인</a></li>
-			<li style="display: inline; text-transform: uppercase; padding: 0 10px; letter-spacing: 0px;">
-				<a style="text-decoration: underline; color: black;" href="menu3.html">스폰서</a></li>
+<body>
+	<nav class="main">
+		<h1>홈페이지</h1>
+		<ul class="topBar">
+			<li>
+				<a href="menu1.html">진행중인 이벤트</a>
+			</li>
+			<li>
+				<a href="menu2.html">당첨자 확인</a>
+			</li>
+			<li>
+				<a href="menu3.html">스폰서</a>
+			</li>
 		</ul>
 	</nav>
-	</div>
 	 <div style="position: absolute; top: 0; bottom: 0; left: 0; right: 0; margin: auto; width: 400px; height: 300px; text-align: center; font-family: 'Open Sans', sans-serif; background:#3498db/;">
         <form>
             <div style="background: white; width: 300px; border-radius: 6px; margin: 0 auto 0 auto; padding: 0px 0px 70px 0px; border: #2980b9 4px solid;">
 			<br><span>이 웹브라우저에서는</span><br><span>지원되지 않는 기능입니다.</span><br><br>
 			<input type="button" value="확인" onClick="location.href='index.html'">
     </div> 
-	<div style="margin-left: 15%; margin-top: 0; background-color: white">
-	</div>
-	<div style="margin-right:15%; margin-top: 0; background-color: white">
-	</div>
 </body>
+<div id="footer">
+	<hr>
+	<a href="mailto:leejunseo@dimigo.hs.kr?subject=피드백" style="cursor: pointer;">피드백 보내기</a>
+	<br><a onclick="alert('모바일 기기에서만 지원되는 기능입니다.');" style="cursor: pointer;">모바일 버전</a> © 2020
+</div>
 </html>
